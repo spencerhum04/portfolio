@@ -1,6 +1,6 @@
 export default function Experience() {
     return (
-        <div className="flex flex-col justify-center items-center py-20">
+        <div className="py-20 h-[1000px]">
             <div className="text-3xl font-medium text-center">Experience</div>
             <div className="flex flex-row gap-x-80 mt-10">
                 <div className="text-xl font-medium">Canada Computers & Electronics</div>
