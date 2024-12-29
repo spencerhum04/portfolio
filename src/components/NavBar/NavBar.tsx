@@ -60,9 +60,9 @@ export default function NavBar({ projectsRef, experienceRef, contactRef } : { pr
                 </div>
                 {menu && (
                     <div className={`absolute left-0 w-full bg-black text-white flex flex-col gap-y-4 p-6 transition-all duration-300 ${scroll ? "top-16" : "top-24"}`}>
-                        <button className="font-medium" onClick={() => handleSection(projectsRef)}>Projects</button>
-                        <button className="font-medium" onClick={() => handleSection(experienceRef)}>Experience</button>
-                        <button className="font-medium" onClick={() => handleSection(contactRef)}>Contact</button>
+                        <button className="font-medium text-left" onClick={() => handleSection(projectsRef)}>Projects</button>
+                        <button className="font-medium text-left" onClick={() => handleSection(experienceRef)}>Experience</button>
+                        <button className="font-medium text-left" onClick={() => handleSection(contactRef)}>Contact</button>
                     </div>
                 )}
             </div>
