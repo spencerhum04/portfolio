@@ -82,38 +82,38 @@ function Form() {
                     <div className="flex flex-col">
                         <label className="flex flex-row gap-x-2.5 items-center text-left mb-1">
                             <div className="font-medium">Name</div>
-                            <div className="text-sm text-amber-600">(required)</div>
+                            <div className="text-sm text-emerald-600">(required)</div>
                         </label>
                         
                         <input type="text" name="name" value={formData.name} onChange={handleInputChange}
-                            className="font-semibold bg-transparent border border-amber-600 rounded p-2.5 focus:outline-none"
+                            className="font-semibold bg-transparent border border-emerald-600 rounded p-2.5 focus:outline-none"
                         />
                     </div>
                     <div className="flex flex-col">
                         <label className="flex flex-row gap-x-2.5 items-center text-left mb-1">
                             <div className="font-medium">Email</div>
-                            <div className="text-sm text-amber-600">(required)</div>
+                            <div className="text-sm text-emerald-600">(required)</div>
                         </label>
                         <input type="email" name="email" value={formData.email} onChange={handleInputChange}
-                            className="font-semibold bg-transparent border border-amber-600 rounded p-2.5 focus:outline-none"
+                            className="font-semibold bg-transparent border border-emerald-600 rounded p-2.5 focus:outline-none"
                         />
                     </div>
                     <div className="flex flex-col">
                         <label className="flex flex-row gap-x-2.5 items-center text-left mb-1">
                             <div className="font-medium">Message</div>
-                            <div className="text-sm text-amber-600">(required)</div>
+                            <div className="text-sm text-emerald-600">(required)</div>
                         </label>
                         <textarea name="message" value={formData.message} onChange={handleInputChange}
-                            className="font-semibold bg-transparent border border-amber-600 h-24 rounded p-2.5 focus:outline-none"
+                            className="font-semibold bg-transparent border border-emerald-600 h-24 rounded p-2.5 focus:outline-none"
                         ></textarea>
                     </div>
                     {error && <div className="text-red-600 text-sm">{error}</div>}
                     {isFormValid() ?
-                        (<button type="submit" className="text-sm rounded p-2 focus:outline-none text-white font-medium bg-amber-600 hover:bg-amber-700">
+                        (<button type="submit" className="text-sm rounded p-2 focus:outline-none text-white font-medium bg-emerald-600 hover:bg-emerald-700">
                             Send
                         </button>)
                         :
-                        (<button type="submit" className="text-sm rounded p-2 focus:outline-none text-white font-medium bg-amber-600 cursor-not-allowed" disabled>
+                        (<button type="submit" className="text-sm rounded p-2 focus:outline-none text-white font-medium bg-emerald-600 cursor-not-allowed" disabled>
                             Send
                         </button>)
                     }
