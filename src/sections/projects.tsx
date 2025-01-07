@@ -1,7 +1,7 @@
 import logo from "../assets/logo.png";
 
 const projects = [
-    { image: logo, tools: ["TypeScript", "JavaScript", "React", "TailwindCSS", "ExpressJS", "PostgreSQL"], title: "CookKeeper", body: "CookKeeper is a full-stack CRUD application designed to simplify the process of storing, organizing, and managing personal recipes. It provides a seamless way to catalog your favorite recipes, complete with ingredients, instructions and total time.", github: "https://github.com/spencerhum04/CookKeeper" },
+    { image: logo, tools: ["TypeScripttt", "JavaScript", "React", "TailwindCSS", "ExpressJS", "PostgreSQL"], title: "CookKeeper", body: "CookKeeper is a full-stack CRUD application designed to simplify the process of storing, organizing, and managing personal recipes. It provides a seamless way to catalog your favorite recipes, complete with ingredients, instructions and total time.", github: "https://github.com/spencerhum04/CookKeeper" },
     { image: logo, tools: ["Nuxt", "Vue", "TailwindCSS", "ExpressJS", "Firebase"], title: "RealmGuide", body: "Fullstack type shi", github: "https://github.com/spencerhum04/mern-stack" },
     { image: logo, tools: ["JavaScript", "p5js"], title: "Genetic Rockets", body: "Fullstack type shi", github: "https://github.com/spencerhum04/Genetic-Rockets" },
 ]
