@@ -6,3 +6,51 @@
 .hide-scrollbar::-webkit-scrollbar {
     display: none;
 }
+
+.header {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+@media (min-width: 640px) {
+    .header {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        font-size: 48px;
+        line-height: 56px;
+    }
+}
+
+.subheader {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (min-width: 1024px) {
+    .subheader {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+.un {
+    display: inline-block;
+}
+
+.un:after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: black;
+    transition: 300ms;
+}
+
+.un:hover:after {
+    width: 100%;
+}
