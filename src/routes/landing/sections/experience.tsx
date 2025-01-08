@@ -7,7 +7,7 @@ const companies = [
 
 export default function Experience() {
     return (
-        <div className="flex flex-col items-center px-6 py-20 h-[1000px]">
+        <div className="flex flex-col items-center px-6 pt-24 pb-40">
             <div className="header font-bold text-center mb-4">My Professional Experience.</div>
             <div className="subheader text-darkgray text-center">As a student, I'm eager to expand my knowledge and gain diverse experience.</div>
             <div className="w-full flex flex-wrap place-content-center gap-10 mt-12">
@@ -18,7 +18,7 @@ export default function Experience() {
                             <div className="text-darkgray p-4">{company.role}</div>
                             <div className="text-lg text-emerald-600 mb-10">{company.date}</div>
                         </div>
-                        <img src={company.image} className="w-full h-80 object-cover" />
+                        <img src={company.image} className="w-full h-48 sm:h-60 md:h-72 lg:h-80 object-cover" />
                     </div>
                 ))}
             </div>
