@@ -9,7 +9,8 @@ function Form() {
 
     const navigate = useNavigate();
     
-    const ACCESS = import.meta.env.VITE_EMAIL_KEY;
+    // const ACCESS = import.meta.env.VITE_EMAIL_KEY;
+    const ACCESS = "a5cdc89d-a4ac-4ec8-adab-1eb6ea2e480b";
 
     const [formData, setFormData] = useState({
         name: "",
