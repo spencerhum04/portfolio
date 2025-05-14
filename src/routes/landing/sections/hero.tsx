@@ -27,7 +27,7 @@ export default function Hero() {
             {visible &&
                 <div className="fixed w-full h-[600px] bg-black text-white flex flex-col items-center justify-center text-center px-8" style={{ opacity }}>
                     <div className="text-3xl lg:text-5xl font-medium">hey there im spencer</div>
-                    <div className="text-lg lg:text-xl text-subgray font-medium mt-4">software developer</div>
+                    <div className="text-lg lg:text-xl text-subgray font-medium mt-4">software engineer</div>
                     <div className="w-full flex flex-wrap justify-center gap-x-8 gap-y-4 mt-12 font-medium">
                         <a href="/Spencer Hum - Resume.pdf" target="_blank" rel="noopener noreferrer" className="place-content-center text-white w-full max-w-48 h-10 bg-emerald-600 hover:bg-emerald-700 rounded">Resume</a>
                         <a href="https://github.com/spencerhum04" target="_blank" rel="noopener noreferrer" className="place-content-center text-emerald-600 w-full max-w-48 h-10 border border-emerald-600 hover:bg-emerald-950 rounded">GitHub</a>
