@@ -19,5 +19,5 @@ Welcome to my personal portfolio website! This site showcases my projects, skill
    ```bash
    npm run dev
 3. **Open in browser:**
-4. ```bash
-   Navigate to http://localhost:5173
+   ```bash
+   http://localhost:5173
