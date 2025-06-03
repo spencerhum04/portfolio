@@ -6,9 +6,7 @@
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, and experiences as a software engineer. It's designed to be clean, modern, and easy to navigate, reflecting my passion for building great user experiences.
 
----
-
-To run this project locally:
+## To run this project locally:
 
 1. **Clone the repository:**
    ```bash
@@ -19,7 +17,7 @@ To run this project locally:
    npm i
 3. **Start the development server:**
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+   npm run dev
 3. **Open in browser:**
+4. ```bash
    Navigate to http://localhost:5173
