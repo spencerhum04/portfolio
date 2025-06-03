@@ -1,33 +1,12 @@
+<!-- @format -->
+
 # Spencer Hum's Developer Portfolio
+
+![React](https://shields.io/badge/react-black?logo=react&style=for-the-badge) ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, and experiences as a software engineer. It's designed to be clean, modern, and easy to navigate, reflecting my passion for building great user experiences.
 
 ---
-
-## 🌐 Live Demo
-🚀 [Check out the live site here](https://yourusername.github.io/portfolio)
-
----
-
-## ✨ Features
-- Responsive design for mobile and desktop
-- Project showcase section
-- About Me section with resume download
-- Contact form with email integration
-- Smooth animations and transitions
-
----
-
-## 🛠️ Tech Stack
-- **React** – Component-based UI
-- **Tailwind CSS** – Utility-first styling
-- **TypeScript** – Strongly typed JavaScript
-- **Framer Motion** – Smooth animations
-- **GitHub Pages** – Deployment
-
----
-
-## 🚀 Getting Started
 
 To run this project locally:
 
