@@ -12,7 +12,7 @@ Welcome to my personal portfolio website! This site showcases my projects, skill
    ```bash
    git clone https://github.com/spencerhum04/portfolio.git
    cd portfolio
-2. **Install dependencies:**
+2. **Install dependencies (must have NodeJS installed):**
    ```bash
    npm i
 3. **Start the development server:**
