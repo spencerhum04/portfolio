@@ -1,9 +1,9 @@
 import "../landing.css";
 
 const projects = [
-    { tools: ["TypeScript", "JavaScript", "React", "TailwindCSS", "ExpressJS", "PostgreSQL"], title: "CookKeeper", body: "Full-stack recipe management website designed to help you catalog, organize, and easily access your favorite personal recipes.", github: "https://github.com/spencerhum04/CookKeeper" },
-    { tools: ["TypeScript", "JavaScript", "React", "TailwindCSS", "ExpressJS", "MongoDB"], title: "Workout Planner", body: "Full-stack CRUD application to organize and plan workouts using the workout type, weight/load, and number of repetitions.", github: "https://github.com/spencerhum04/workout-planner" },
-    { tools: ["JavaScript", "p5js"], title: "Genetic Rockets", body: "A program where rockets learn to increase accuracy progressively to reach a certain point using the results of previous attempts.", github: "https://github.com/spencerhum04/Genetic-Rockets" },
+    { tools: ["Nuxt", "Vue.js", "TypeScript", "Hono", "Node.js"], title: "LLM Compare", body: "Full-stack LLM benchmarking platform that compares the responses between different LLMs under prompts in real-time against certain criteria.", github: "https://github.com/destroyer22719/llm-tester" },
+    { tools: ["Python", "LangGraph", "FastAPI", "PostgreSQL", "Docker"], title: "Agentic RAG Engine", body: "Autonomous Agentic RAG using LangGraph and the OpenAI API with a self-correcting feedback loop that evaluates and improves model responses.", github: "https://github.com/spencerhum04/agentic-rag-engine" },
+    { tools: ["TypeScript", "JavaScript", "React", "TailwindCSS", "ExpressJS", "MongoDB"], title: "Workout Planner", body: "CRUD application to organize and plan workouts using the workout type, weight/load, and number of repetitions.", github: "https://github.com/spencerhum04/workout-planner" },
 ]
 
 export default function Projects() {
