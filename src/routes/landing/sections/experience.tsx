@@ -9,8 +9,8 @@ export default function Experience() {
             <div className="header font-bold text-center mb-4">My Professional Experience.</div>
             <div className="subheader text-darkgray text-center">As a student, I'm eager to expand my knowledge and gain diverse experience.</div>
             <div className="w-full flex flex-wrap place-content-center gap-10 mt-12">
-                <Workplace name={"Canada Computers & Electronics"} role={"Business Applications Developer · Internship"} date={"Sept. 2024 - Dec. 2024"} image={canadaComputers} />
-                <Workplace name={"Yupi.ca"} role={"Software Engineer · Internship"} date={"May. 2025 - Present"} image={yupi} />
+                <Workplace name={"Canada Computers & Electronics"} role={"Business Applications Developer · Internship"} date={"Sept 2024 - Dec 2024"} image={canadaComputers} />
+                <Workplace name={"Yupi.ca"} role={"Software Engineer · Internship"} date={"May 2025 - Apr 2026"} image={yupi} />
             </div>
         </div>
     )
